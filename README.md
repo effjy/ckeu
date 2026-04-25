@@ -6,7 +6,7 @@
 [![OpenSSL 3.0+](https://img.shields.io/badge/OpenSSL-3.0%2B-blueviolet?style=flat-square)]()
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow?style=flat-square)]()
 
-# 🛡️ Classified Kyber Encryption Utility (CKEU)
+# 🛡️ Classified Kyber Encryption Utility (CKEU) (AES-256-GCM Edition)
 
 **CKEU** is a hardened, deniable file‑encryption tool that combines **post‑quantum Kyber‑1024** with **classical X25519** in a hybrid KEM, then protects the actual data with **AES‑256‑GCM**.  
 The secret key is stored encrypted (Argon2id + AES‑256‑GCM + padding), and *plausible deniability* is achieved through cryptographic padding so that files look like random noise.
